@@ -19,7 +19,25 @@ html {
 .navbar-nav  li a:hover {
     color: #1abc9c !important;
 }
-
+.compose{
+  position: absolute;
+  right: 50px;
+  bottom: 100px;
+  background: #f8f8f8;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 100px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+.compose a{
+  text-decoration: none;
+}
 .footer-padding {
 	padding-bottom: 60px;
 }
